@@ -1,8 +1,13 @@
 # Use a lightweight Nginx image
 FROM nginx:alpine
 
-# Copy the HTML files to the Nginx web root
-COPY html/ /usr/share/nginx/html/
+# Create necessary directories
+RUN mkdir -p /usr/share/nginx/html/html
+
+# Copy the HTML files to the correct location
+COPY html/ /usr/share/nginx/html/html/
+
+# Copy assets to the correct location
 COPY assets/ /usr/share/nginx/html/assets/
 
 # Copy nginx configuration
