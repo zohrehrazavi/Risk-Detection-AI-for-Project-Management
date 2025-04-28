@@ -34,7 +34,7 @@ docker-compose build
 docker-compose up -d
 ```
 
-3. Access the application at `http://localhost:80`
+3. Access the application at `http://localhost:8080`
 
 ### Coming Soon
 
