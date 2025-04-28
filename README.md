@@ -1,71 +1,49 @@
-# RiskPredict AI
+# Risk Detection AI for Project Management
 
-A web-based system that **predicts project risks** in real-time using **AI/ML**, with the goal of replacing traditional manual risk assessment methods. It helps project managers **identify**, **analyze**, and **mitigate risks proactively** instead of reactively.
+## Frontend Implementation
 
-## 🚀 Key Features
+This repository currently contains the frontend implementation of an AI-powered project risk detection tool. The backend integration will be added in future updates.
 
-- **AI-Powered Risk Prediction**: Real-time analysis using Google Gemini 1.5 Flash API
-- **Proactive Risk Management**: Identify and mitigate risks before they impact your project
-- **Interactive Dashboard**: Visual risk matrix and mitigation strategies
-- **Seamless Integration**: Works with popular project management tools (Jira, Trello)
-- **Real-time Analysis**: No database required - stateless architecture
+### Current Features
 
-## 🛠️ Technology Stack
+- Modern, responsive user interface
+- Project risk visualization dashboard
+- Interactive risk matrix display
+- Team collaboration interface
+- Docker configuration for easy deployment
 
-- **Frontend**: Next.js + React 19 + TailwindCSS v4
-- **Backend**: Django, REST APIs
-- **AI**: Google Gemini 1.5 Flash API
-- **Deployment**: Vercel (serverless, secure, scalable)
+### Technology Stack
 
-## 👥 Team
+- HTML5
+- CSS3 (Bootstrap)
+- JavaScript
+- Docker for containerization
 
-- **Raşit Melih Güney** — Frontend/UX focus
-- **İbrahim Kalaycı** — Automotive cybersecurity and risk frameworks
-- **Zohreh Razavi** — Project management and Agile coordination
+### Getting Started
 
-## 📊 How It Works
-
-1. **Input**: Submit your project data through our intuitive web interface
-2. **Analysis**: Our AI processes both internal project data and external market factors
-3. **Output**: Receive real-time risk predictions and mitigation strategies
-4. **Action**: Implement suggested strategies through our integrated PM tools
-
-## 🎯 Target Industries
-
-- Information Technology
-- Construction
-- Healthcare
-- Finance
-
-## 💰 Commercialization
-
-- **Subscription Plans**: Tailored for different company sizes
-- **Enterprise Licensing**: Custom solutions for large organizations
-- **API Integration**: Flexible integration options for existing systems
-
-## 🔒 Security & Compliance
-
-- GDPR compliant
-- End-to-end encryption
-- Secure API integrations
-- Regular security audits
-
-## 🚀 Getting Started
-
-1. Clone the repository
-2. Install dependencies
-3. Set up environment variables
-4. Run the development server
+1. Clone the repository:
 
 ```bash
-npm install
-npm run dev
+git clone https://github.com/zohrehrazavi/Risk-Detection-AI-for-Project-Management.git
 ```
 
-## 📞 Support
+2. Run with Docker:
 
-For support, email support@riskpredict.ai or join our Slack community.
+```bash
+docker-compose build
+docker-compose up -d
+```
 
----
+3. Access the application at `http://localhost:80`
 
-_"pls buy :3"_ — Making project risk management smarter, one prediction at a time.
+### Coming Soon
+
+- Backend integration with AI risk analysis
+- Real-time risk assessment
+- Project data management
+- User authentication
+- API integration
+
+### License
+
+MIT License
