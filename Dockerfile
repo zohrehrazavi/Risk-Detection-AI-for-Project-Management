@@ -5,6 +5,9 @@ FROM nginx:alpine
 COPY html/ /usr/share/nginx/html/
 COPY assets/ /usr/share/nginx/html/assets/
 
+# Copy nginx configuration
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
 # Expose port 80
 EXPOSE 80
 
